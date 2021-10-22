@@ -1,7 +1,7 @@
 print("Hello from the colab!")  # Hello from the colab!
 
 # Let's print some things to the screen!
-print("Hello to CS47!")  # Hello to CS47!
+print("Hello to CS49!")  # Hello to CS47!
 print("some other stuff")  # some other stuff
 
 
@@ -28,6 +28,7 @@ print(type({"a": 12, "b": 22}))  # <class 'dict'>
 a = 12
 b = 10
 print(a)  # 12
+
 a += b
 print(a)  # 22
 
@@ -37,8 +38,8 @@ print(a)  # 220
 # --------f-strings-----------------
 z = 1234567
 s1 = str(3) + "   hello some text   " + str(z) + "   " + str(z + 3)
-s = f" {1 + 2}   {'hello'} some text   {z}   {z + 3}"
-
+s = f"{1 + 2}   {'hello'} some text   {z}   {z + 3}"
+print(s)
 print(type(s))  # <class 'str'>
 
 # --------string operations----------
