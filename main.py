@@ -35,14 +35,14 @@ print(a)  # 22
 a *= b
 print(a)  # 220
 
-# --------f-strings-----------------
+# --------f-strings (FORMATTED STRINGS-----------------
 z = 1234567
 s1 = str(3) + "   hello some text   " + str(z) + "   " + str(z + 3)
 s = f"{1 + 2}   {'hello'} some text   {z}   {z + 3}"
 print(s)
 print(type(s))  # <class 'str'>
 
-# --------string operations----------
+# -------STRING OPERATIONS----------
 st = "The brown fox is in the hen house! and i want to fix some things here."
 # The brown fox is in the hen house! and i want to fix some things here.
 print(st)
@@ -129,3 +129,5 @@ add(1, 2)
 9
 3
 """
+
+help(st.upper)
