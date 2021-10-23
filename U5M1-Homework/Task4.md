@@ -26,3 +26,16 @@ def helloWorld(name):
     print("This prints to the console when you Run Tests")
     return "Hello, " + name
 ```
+
+--------------ricks notes for solving-------------
+
+- There is NO reverse() function in the string class.
+- Some of th ways to reverse a string include:
+    - Slicing
+    - join() function
+    - reversed() function
+    - for and while loops
+  - slicing is the "recommended" way to reverse a sting. It's supposed to be simpler and faster. 
+    - [ReverseOrder](https://www.journaldev.com/23647/python-reverse-string)
+    - [InvertCasing](https://www.tutorialspoint.com/How-to-invert-case-for-all-letters-in-a-string-in-Python)
+    - [GeneralReference](https://www.youtube.com/watch?v=VchuKL44s6E)
