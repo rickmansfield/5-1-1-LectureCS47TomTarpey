@@ -4,6 +4,9 @@ x = {'someKey': 4}
 
 for key, value in x.items():
     print(key, value)
+    
+for key, in x:
+    print(key, x[key])
 
 for eachValue in x.items():
     print(key, value)
