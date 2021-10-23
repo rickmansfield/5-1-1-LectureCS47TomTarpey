@@ -18,7 +18,6 @@ print(addTwoDigits(66))
 # Alternative
 # Function to get sum of digits
 
-
 def getSum(n):
 
     sum = 0
