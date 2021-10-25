@@ -114,6 +114,7 @@ def add(a, b):
             break
     return a + b
 
+
 add(1, 2)
 """
 0
@@ -128,5 +129,19 @@ add(1, 2)
 9
 3
 """
+
+l = [1, 2, 3, 4]
+
+
+def add(a, b, l1):
+    a += 23
+    print("I am inside the function")
+    l1[0] = 45
+    return a + b
+
+
+print(l)
+add(6, 2, l)
+print(l)
 
 help(st.upper)
