@@ -1,6 +1,6 @@
 # Intro to Python I
 
-- Some Basics before we get in to the language
+## Some Basics before we get in to the language
 - creating a python file
 - directories?
 - using python in the shell
